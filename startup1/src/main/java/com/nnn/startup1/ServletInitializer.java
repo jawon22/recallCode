@@ -1,4 +1,4 @@
-package com.jjj.startup;
+package com.nnn.startup1;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(StartupApplication.class);
+		return application.sources(Startup1Application.class);
 	}
 
 }
